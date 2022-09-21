@@ -1,0 +1,49 @@
+body {
+    text-align: center;
+    background-color: var(--Lightgray);
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    font-family: 'Outfit', sans-serif;
+    font-size: 15px;
+}
+:root{
+    --White: hsl(0, 0%, 100%);
+    --Lightgray: hsl(212, 45%, 89%);
+    --Grayishblue: hsl(220, 15%, 55%);
+    --Darkblue: hsl(218, 44%, 22%);
+}
+
+.card {
+    width: 300px;
+    height: 500px;
+    background-color: #ffffff;
+    border-radius: 25px;
+    text-align: center;
+    box-shadow: 10px;
+}
+.qr {
+    width: 270px;
+    height: 270px;
+    margin-top: 6%;
+    border-radius: 15px;
+}
+.contens {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.title {
+
+    color: var(--Grayishblue);
+    font-weight: 400;
+}
+.head {
+    font-size: 1.4em;
+    color: var(--Darkblue);
+    font-weight: 700;
+}
+
+.center{
+    margin-top: calc(50vh - 250px) ;
+}
